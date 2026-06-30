@@ -1,7 +1,0 @@
-/* Gritty Bee Design System — global entry point.
-   Consumers link THIS file. It only @imports; all real rules live in tokens/. */
-@import "./tokens/fonts.css";
-@import "./tokens/colors.css";
-@import "./tokens/typography.css";
-@import "./tokens/spacing.css";
-@import "./tokens/effects.css";
