@@ -1,0 +1,36 @@
+/* ============================================================
+   EFFECTS — radii, shadows, blur, motion — Gritty Bee
+   Generous rounding (cards 24–28px), fully-pill controls (100px),
+   and soft, low, tinted drop shadows (never harsh black).
+   ============================================================ */
+:root {
+  /* Corner radii */
+  --radius-sm:    16px;   /* icon tiles, small chips */
+  --radius-md:    24px;   /* dark inset cards */
+  --radius-lg:    26px;   /* standard content cards */
+  --radius-xl:    28px;   /* feature / pricing cards */
+  --radius-2xl:   32px;   /* trust panel */
+  --radius-3xl:   36px;   /* CTA block */
+  --radius-pill:  100px;  /* nav, buttons, badges */
+
+  /* Shadows — soft, warm-tinted, large negative spread */
+  --shadow-nav:    0 12px 40px -22px rgba(24, 22, 18, 0.40);
+  --shadow-card:   0 26px 50px -28px rgba(24, 22, 18, 0.35);  /* card hover-lift */
+  --shadow-pop:    0 18px 50px -20px rgba(24, 22, 18, 0.45);  /* mobile menu */
+  --shadow-pricing:0 30px 60px -30px rgba(24, 22, 18, 0.60);  /* recommended plan */
+  --shadow-accent: 0 16px 40px -16px var(--accent);            /* glow under the honey CTA */
+
+  /* Glass */
+  --glass-bg:   rgba(250, 248, 242, 0.82);
+  --glass-blur: saturate(180%) blur(16px);  /* @kind other */
+
+  /* Borders */
+  --border-width: 1px;
+  --border-cta:   2px;   /* outline buttons */
+
+  /* Motion */
+  --ease-out:   cubic-bezier(0.2, 0.7, 0.2, 1); /* @kind other */
+  --dur-fast:   0.2s;   /* @kind other */
+  --dur-base:   0.25s;  /* @kind other */
+  --dur-reveal: 0.75s; /* @kind other */
+}

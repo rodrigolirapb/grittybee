@@ -1,0 +1,27 @@
+/* ============================================================
+   SPACING & LAYOUT — Gritty Bee
+   8px-based rhythm. Sections breathe at ~90px; the page is a
+   centered 1180px column with a 24px gutter.
+   ============================================================ */
+:root {
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-9:   36px;
+  --space-12:  48px;
+  --space-14:  56px;
+  --space-card: 34px;   /* default card inner padding */
+
+  /* Vertical rhythm between major sections */
+  --section-y:    90px;
+  --section-y-lg: 110px;
+
+  /* Page container */
+  --container:      1180px;  /* default max width */
+  --container-text: 980px;   /* narrow reading column (Why / pricing) */
+  --gutter:         24px;
+}
